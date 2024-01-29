@@ -1,5 +1,6 @@
 package org.example.linkedlists;
 
+import org.example.Person;
 import org.example.interfaces.IRunner;
 
 import java.util.LinkedList;
@@ -14,6 +15,14 @@ public class LinkedListRunner implements IRunner {
 
   @Override
   public void run() {
+
+    // Examples
+    Node<String> first = new Node<String>("First");
+    Node<String> second = new Node<String>("Second");
+    Node<String> third = new Node<String>("Third");
+    Node<Person> fourth = new Node<Person>(new Person("Kabib", 25));
+
+
     System.out.println("I'm running LinkedListRunner.run");
 
     Scanner scanner = new Scanner(System.in);

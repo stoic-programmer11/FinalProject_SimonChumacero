@@ -1,8 +1,8 @@
 package org.example.linkedlists;
 
-public class LinkedList implements ILinkedList{
+public class LinkedList<T> implements ILinkedList<T>{
 
-  Node head;
+  Node<T> head;
 
 
   @Override
@@ -26,7 +26,7 @@ public class LinkedList implements ILinkedList{
   }
 
   @Override
-  public Node first() {
+  public Node<T> first() {
     if (isEmpty()) {
       return null;
     } else {
@@ -35,7 +35,7 @@ public class LinkedList implements ILinkedList{
   }
 
   @Override
-  public Node last() {
+  public Node<T> last() {
     if (isEmpty()) {
       return null;
     } else {
@@ -48,8 +48,8 @@ public class LinkedList implements ILinkedList{
   }
 
   @Override
-  public void addFirst(int data) {
-    Node newNode = new Node(data);
+  public void addFirst(T data) {
+    Node<T> newNode = new Node<T>(data);
     if (isEmpty()) {
       head = newNode;
     } else {
@@ -59,12 +59,12 @@ public class LinkedList implements ILinkedList{
   }
 
   @Override
-  public void addLast(int data) {
-    Node newNode = new Node(data);
+  public void addLast(T data) {
+    Node<T> newNode = new Node<T>(data);
     if (isEmpty()) {
       head = newNode;
     } else {
-      Node current = head;
+      Node<T> current = head;
       while (current.next != null) {
         current = current.next;
       }

@@ -2,14 +2,14 @@ package org.example.linkedlists;
 
 import org.example.linkedlists.Node;
 
-public interface ILinkedList {
+public interface ILinkedList<T> {
 
   int size();
   boolean isEmpty();
 
-  Node first();
-  Node last();
-  void addFirst(int data);
-  void addLast(int data);
+  Node<T> first();
+  Node<T> last();
+  void addFirst(T data);
+  void addLast(T data);
   void removeFirst();
 }
