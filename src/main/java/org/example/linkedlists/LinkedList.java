@@ -1,0 +1,81 @@
+package org.example.linkedlists;
+
+public class LinkedList implements ILinkedList{
+
+  Node head;
+
+
+  @Override
+  public int size() {
+    if(isEmpty()){
+      return 0;
+    } else {
+      int size = 1;
+      Node current = head;
+      while(current.next != null){
+        size++;
+        current = current.next;
+      }
+      return size;
+    }
+  }
+
+  @Override
+  public boolean isEmpty() {
+    return head == null;
+  }
+
+  @Override
+  public Node first() {
+    if (isEmpty()) {
+      return null;
+    } else {
+      return head;
+    }
+  }
+
+  @Override
+  public Node last() {
+    if (isEmpty()) {
+      return null;
+    } else {
+      Node current = head;
+      while (current.next != null) {
+        current = current.next;
+      }
+      return current;
+    }
+  }
+
+  @Override
+  public void addFirst(int data) {
+    Node newNode = new Node(data);
+    if (isEmpty()) {
+      head = newNode;
+    } else {
+      newNode.next = head;
+      head = newNode;
+    }
+  }
+
+  @Override
+  public void addLast(int data) {
+    Node newNode = new Node(data);
+    if (isEmpty()) {
+      head = newNode;
+    } else {
+      Node current = head;
+      while (current.next != null) {
+        current = current.next;
+      }
+      current.next = newNode;
+    }
+  }
+
+  @Override
+  public void removeFirst() {
+    if (!isEmpty()) {
+      head = head.next;
+    }
+  }
+}
