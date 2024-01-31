@@ -1,6 +1,5 @@
 package org.example.linkedlists;
 
-import org.example.linkedlists.Node;
 
 public interface ILinkedList<T> {
 

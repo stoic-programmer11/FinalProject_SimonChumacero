@@ -17,10 +17,16 @@ public class LinkedListRunner implements IRunner {
   public void run() {
 
     // Examples
-    Node<String> first = new Node<String>("First");
-    Node<String> second = new Node<String>("Second");
-    Node<String> third = new Node<String>("Third");
-    Node<Person> fourth = new Node<Person>(new Person("Kabib", 25));
+//    Node<String> first = new Node<String>("First");
+//    Node<String> second = new Node<String>("Second");
+//    Node<String> third = new Node<String>("Third");
+//    Node<Person> fourth = new Node<Person>(new Person("Kabib", 25));
+//
+//    linkedList.add(first.toString());
+//    linkedList.add(second.toString());
+//    linkedList.add(third.toString());
+//    linkedList.add(fourth.toString());
+
 
 
     System.out.println("I'm running LinkedListRunner.run");
