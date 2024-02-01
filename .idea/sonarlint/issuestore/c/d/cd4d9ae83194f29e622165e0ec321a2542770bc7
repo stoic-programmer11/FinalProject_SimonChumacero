@@ -21,5 +21,3 @@ G	java:S106V"+Replace this use of System.out by a logger.(ºğ˜–8ÛÈö·Õ1
 G	java:S106W"+Replace this use of System.out by a logger.(Ší¥ñ8ÛÈö·Õ1
 G	java:S106X"+Replace this use of System.out by a logger.(å°şé8ÜÈö·Õ1
 L	java:S106Y"+Replace this use of System.out by a logger.(Àè»¼ÿÿÿÿÿ8ÜÈö·Õ1
-Q
-java:S1128"/Remove this unused import 'org.example.Person'.(¸üÂüÿÿÿÿ8Šâ¤‹Ö1
