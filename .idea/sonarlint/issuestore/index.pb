@@ -19,3 +19,9 @@ e
 5src/main/java/org/example/linkedlists/LinkedList.java,5\c\5cdecc610ed7c85919d356f4c37c50aad38da4f4
 U
 %src/main/java/org/example/Person.java,d\7\d7cef7fca7b9350830c521bba16c082063341c26
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+[
++src/main/java/org/example/TowerOfHanoi.java,0\2\02a2a725bddc3abae69d1e0b5ee4e24372f0ba14
+[
++src/main/java/org/example/stacks/Stack.java,9\2\92f7d7905ff50c4666c2ebd52c5dd5fc9d73f999
