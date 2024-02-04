@@ -25,3 +25,13 @@ U
 +src/main/java/org/example/TowerOfHanoi.java,0\2\02a2a725bddc3abae69d1e0b5ee4e24372f0ba14
 [
 +src/main/java/org/example/stacks/Stack.java,9\2\92f7d7905ff50c4666c2ebd52c5dd5fc9d73f999
+l
+<src/main/java/org/example/linkedlists/IDoubleLinkedList.java,c\d\cd99c6b29081868a335bb457ece77ba36e677f08
+k
+;src/main/java/org/example/linkedlists/DoubleLinkedList.java,8\1\81e6637e9023a0949452def7d7c05b4b9b32a130
+m
+=src/main/java/org/example/linkedlists/NodeDoubleEdgeNode.java,0\b\0b71bb44a539a2c1fc15ed42c2291b38cad42ab0
+i
+9src/main/java/org/example/linkedlists/DoubleEdgeNode.java,3\a\3abb0916c92f5f3c6a1cc7505b9710a980024404
+q
+Asrc/main/java/org/example/linkedlists/DoubleLinkedListRunner.java,f\a\fad4726f5c69b5b6e1d8cfef46a392b94387cac3

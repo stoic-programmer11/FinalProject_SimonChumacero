@@ -1,7 +1,4 @@
 
-m
-java:S1301
-"KReplace this "switch" statement by "if" statements to increase readability.(Æ¯¼¢şÿÿÿÿ8³ˆ÷µÔ1
 U
-java:S1118":Add a private constructor to hide the implicit public one.(©´¾úÿÿÿÿ
-X	java:S125"<This block of commented-out lines of code should be removed.(¥¦ğÓ8Óˆ÷µÔ1
+java:S1118":Add a private constructor to hide the implicit public one.(©´¾úÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(÷æó£ûÿÿÿÿ8ªÓ„³×1
