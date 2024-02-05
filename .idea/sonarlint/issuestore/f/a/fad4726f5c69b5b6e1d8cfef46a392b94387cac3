@@ -1,4 +1,22 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(÷ÇšŠ8û—‘³×1
-V
-java:S1068"4Remove this unused "doubleLinkedList" private field.(´ñ°ıÿÿÿÿÿ8Ì³×1
+L	java:S106"+Replace this use of System.out by a logger.(·›òÕüÿÿÿÿ8¤ıî´×1
+F	java:S106"+Replace this use of System.out by a logger.(ÖµçP8¤ıî´×1
+L	java:S106"+Replace this use of System.out by a logger.(çªÇûÿÿÿÿ8¥ıî´×1
+L	java:S106""+Replace this use of System.out by a logger.(±«¾Üÿÿÿÿÿ8¥ıî´×1
+G	java:S106%"+Replace this use of System.out by a logger.(ÁäÕ»8¦ıî´×1
+G	java:S106*"+Replace this use of System.out by a logger.(Èè„ø8§ıî´×1
+L	java:S1060"+Replace this use of System.out by a logger.(“™·øÿÿÿÿ8§ıî´×1
+L	java:S1063"+Replace this use of System.out by a logger.(ò· ìúÿÿÿÿ8¨ıî´×1
+L	java:S1066"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8¨ıî´×1
+L	java:S1069"+Replace this use of System.out by a logger.(úÉ’ ıÿÿÿÿ8©ıî´×1
+G	java:S106?"+Replace this use of System.out by a logger.(÷ÇšŠ8©ıî´×1
+L	java:S106@"+Replace this use of System.out by a logger.(È¦˜•úÿÿÿÿ8ªıî´×1
+L	java:S106A"+Replace this use of System.out by a logger.(ÊÓÇøşÿÿÿÿ8ªıî´×1
+L	java:S106B"+Replace this use of System.out by a logger.(—×Äìÿÿÿÿÿ8ªıî´×1
+L	java:S106C"+Replace this use of System.out by a logger.(âª¥üÿÿÿÿ8ªıî´×1
+L	java:S106D"+Replace this use of System.out by a logger.(©ı¨ûÿÿÿÿÿ8«ıî´×1
+L	java:S106E"+Replace this use of System.out by a logger.(§³õ¿ùÿÿÿÿ8«ıî´×1
+G	java:S106F"+Replace this use of System.out by a logger.(ºğ˜–8«ıî´×1
+L	java:S106G"+Replace this use of System.out by a logger.(éãîˆÿÿÿÿÿ8«ıî´×1
+G	java:S106H"+Replace this use of System.out by a logger.(å°şé8«ıî´×1
+L	java:S106I"+Replace this use of System.out by a logger.(Àè»¼ÿÿÿÿÿ8¾ˆ€µ×1

@@ -91,4 +91,26 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
     tail.prev = tail.prev.prev;
     tail.prev.next = tail;
   }
+
+  @Override
+  public String toString() {
+    if (isEmpty()) {
+      return "DoubleLinkedList is empty";
+    }
+
+    StringBuilder sb = new StringBuilder();
+    sb.append("[ ");
+    DoubleEdgeNode<T> current = head.next;
+    while (current != tail) {
+      sb.append(current.getData());
+      if (current.next != tail) {
+        sb.append(", ");
+      }
+      current = current.next;
+    }
+    sb.append(" ]");
+    return sb.toString();
+  }
 }
+
+

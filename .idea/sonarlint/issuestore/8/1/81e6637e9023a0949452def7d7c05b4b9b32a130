@@ -1,5 +1,13 @@
 
 T
-java:S1117"7Rename "head" which hides the field declared at line 4.(ƒ—Ì£8¹ö²×1
+java:S1117"7Rename "head" which hides the field declared at line 4.(ƒ—Ì£8ñüŠ´×1
 T
-java:S1117	"7Rename "tail" which hides the field declared at line 5.(È…Ù¾8ºö²×1
+java:S1117	"7Rename "tail" which hides the field declared at line 5.(È…Ù¾8òüŠ´×1
+N
+java:S1905"1Remove this unnecessary cast to "DoubleEdgeNode".(€ÚÔ¢8õüŠ´×1
+N
+java:S1905"1Remove this unnecessary cast to "DoubleEdgeNode".(ç¾¯›8õüŠ´×1
+N
+java:S1905+"1Remove this unnecessary cast to "DoubleEdgeNode".(½ì÷¬8÷üŠ´×1
+N
+java:S19054"1Remove this unnecessary cast to "DoubleEdgeNode".(Š »ñ8øüŠ´×1
