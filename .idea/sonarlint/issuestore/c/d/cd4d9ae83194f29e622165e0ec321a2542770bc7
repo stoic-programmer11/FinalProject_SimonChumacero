@@ -8,7 +8,7 @@ F	java:S106,"+Replace this use of System.out by a logger.(’¡ð<8ÔÈö·Õ1
 G	java:S1062"+Replace this use of System.out by a logger.(ç¸«°8ÕÈö·Õ1
 L	java:S1065"+Replace this use of System.out by a logger.(ÄÏÂòüÿÿÿÿ8ÖÈö·Õ1
 L	java:S1068"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8ÖÈö·Õ1
-L	java:S106;"+Replace this use of System.out by a logger.(ÃÁ×¬øÿÿÿÿ8ÖÈö·Õ1
+G	java:S106;"+Replace this use of System.out by a logger.(‹À¡‰8ÖÈö·Õ1
 L	java:S106A"+Replace this use of System.out by a logger.( ðäŽýÿÿÿÿ8ØÈö·Õ1
 L	java:S106B"+Replace this use of System.out by a logger.(È¦˜•úÿÿÿÿ8ØÈö·Õ1
 L	java:S106C"+Replace this use of System.out by a logger.(ÊÓÇøþÿÿÿÿ8ÙÈö·Õ1

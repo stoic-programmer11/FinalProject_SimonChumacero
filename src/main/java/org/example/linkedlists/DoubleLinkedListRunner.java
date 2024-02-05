@@ -54,7 +54,7 @@ public class DoubleLinkedListRunner<T> implements IRunner {
           System.out.println("Exiting...");
           return;
         default:
-          System.out.println("Invalid option. Please choose a valid option");
+          System.out.println("Invalid option");
       }
     }
   }

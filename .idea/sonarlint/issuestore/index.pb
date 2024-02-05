@@ -33,3 +33,9 @@ i
 9src/main/java/org/example/linkedlists/DoubleEdgeNode.java,3\a\3abb0916c92f5f3c6a1cc7505b9710a980024404
 q
 Asrc/main/java/org/example/linkedlists/DoubleLinkedListRunner.java,f\a\fad4726f5c69b5b6e1d8cfef46a392b94387cac3
+b
+2src/main/java/org/example/stacks/StacksRunner.java,2\6\265ea8d24ad273b342ca936d65ce672546b89556
+a
+1src/main/java/org/example/stacks/StackRunner.java,b\2\b2003104315e5692f3dc460e5fdf20f144f8db62
+\
+,src/main/java/org/example/stacks/IStack.java,b\d\bdef1d63f42d235ed6df770b6b2b2da8cf2b4ed8

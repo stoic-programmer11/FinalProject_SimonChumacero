@@ -1,3 +1,7 @@
 
 *
-java:S1700"Rename field "stack"(ÆòÜ„
+java:S1700	"Rename field "stack"(ÆòÜ„
+L	java:S106:"+Replace this use of System.out by a logger.(µŸŞ…şÿÿÿÿ8ïüæÌ×1
+L	java:S106="+Replace this use of System.out by a logger.(Îÿ¿íûÿÿÿÿ8ğüæÌ×1
+L	java:S106@"+Replace this use of System.out by a logger.(Ø–ªùÿÿÿÿ8ñüæÌ×1
+G	java:S106C"+Replace this use of System.out by a logger.(Û®÷â8ñüæÌ×1

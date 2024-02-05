@@ -1,6 +1,7 @@
 package org.example.stacks;
 
 import org.example.linkedlists.LinkedList;
+import org.example.linkedlists.Node;
 
 import java.util.EmptyStackException;
 
@@ -50,5 +51,19 @@ public class Stack<E> implements IStack<E> {
   @Override
   public int size() {
     return stack.size();
+  }
+
+  // Print the stack
+  public void printStack() {
+    System.out.print("[ ");
+    Node<E> current = stack.first();
+    while (current != null) {
+      System.out.print(current.getData());
+      current = current.getNext();
+      if (current != null) {
+        System.out.print(", ");
+      }
+    }
+    System.out.println(" ]");
   }
 }
