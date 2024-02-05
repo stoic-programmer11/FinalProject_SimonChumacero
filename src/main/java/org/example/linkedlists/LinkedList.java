@@ -4,14 +4,13 @@ public class LinkedList<T> implements ILinkedList<T>{
 
   Node<T> head;
 
-
   @Override
   public int size() {
     if(isEmpty()){
       return 0;
     } else {
       int size = 1;
-      Node current = head;
+      Node<T> current = head;
       while(current.next != null){
         size++;
         current = current.next;
@@ -39,7 +38,7 @@ public class LinkedList<T> implements ILinkedList<T>{
     if (isEmpty()) {
       return null;
     } else {
-      Node current = head;
+      Node<T> current = head;
       while (current.next != null) {
         current = current.next;
       }

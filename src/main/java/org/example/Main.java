@@ -22,6 +22,7 @@ public class Main {
   private static void printMenu() {
     System.out.println("Choose a data structure to work with:");
     System.out.println("1. LinkedList");
+    System.out.println("2. DoubleLinkedList");
 //    System.out.println("2. ArrayList");
 //    System.out.println("3. Stack");
 //    System.out.println("4. Queue");
