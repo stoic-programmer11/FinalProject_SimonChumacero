@@ -52,6 +52,7 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
     return (DoubleEdgeNode<T>) tail.prev;
   }
 
+
   @Override
   public void addFirst(T data) {
     // add a new node with data to the front of the list
