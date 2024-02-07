@@ -45,3 +45,5 @@ X
 (src/test/java/DoubleLinkedListTests.java,c\b\cb1afbc0757e318e2ccc953382b4fc5516e19281
 M
 src/test/java/StackTests.java,a\1\a1071a18da3cf50e5286d0ee75a9b433cd968eeb
+\
+,src/main/java/org/example/queues/IQueue.java,e\5\e504caef356cfcf460e127d0c1782b524eba5009
