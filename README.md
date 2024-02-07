@@ -7,7 +7,8 @@
 ## List of data structures in the project:
 
 ### 1. Linked Lists
-### 2. Stacks
+### 2. DoubleLinkedList
+### 3. Stacks
 
 ## 1. Installation
 ### Clone the repository or download it using the following command:
