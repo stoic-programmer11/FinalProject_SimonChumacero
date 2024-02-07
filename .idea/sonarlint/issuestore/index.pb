@@ -39,3 +39,9 @@ a
 ,src/main/java/org/example/stacks/IStack.java,b\d\bdef1d63f42d235ed6df770b6b2b2da8cf2b4ed8
 S
 #src/test/java/LinkedListsTests.java,3\5\35795e1f450a42d8f7fbcee51b7976b718bd96df
+V
+&src/test/java/DoubleLinkeListTest.java,5\1\51c90e85f8494f7a95f557b78b071ab80df3c3b6
+X
+(src/test/java/DoubleLinkedListTests.java,c\b\cb1afbc0757e318e2ccc953382b4fc5516e19281
+M
+src/test/java/StackTests.java,a\1\a1071a18da3cf50e5286d0ee75a9b433cd968eeb

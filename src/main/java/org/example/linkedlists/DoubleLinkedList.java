@@ -38,15 +38,18 @@ public class DoubleLinkedList<T> implements IDoubleLinkedList<T>{
   public DoubleEdgeNode<T> first() {
     // return but do not remove the first element
     if (isEmpty()) {
+      System.out.println("DoubleLinkedList is empty");
       return null;
     }
     return (DoubleEdgeNode<T>) head.next;
   }
 
+
   @Override
   public DoubleEdgeNode<T> last() {
     // return but do not remove the last element
     if (isEmpty()) {
+      System.out.println("DoubleLinkedList is empty");
       return null;
     }
     return (DoubleEdgeNode<T>) tail.prev;

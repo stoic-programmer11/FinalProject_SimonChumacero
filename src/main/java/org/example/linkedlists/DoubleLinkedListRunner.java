@@ -28,10 +28,16 @@ public class DoubleLinkedListRunner<T> implements IRunner {
           System.out.println("The DoubleLinkedList is empty? " + doubleLinkedList.isEmpty());
           break;
         case 3:
-          System.out.println("The first Node is: " + doubleLinkedList.first().getData());
+          DoubleEdgeNode<T> firstNode = doubleLinkedList.first();
+          if (firstNode != null) {
+            System.out.println("The first Node is: " + firstNode.getData());
+          }
           break;
         case 4:
-          System.out.println("The last Node is: " + doubleLinkedList.last().getData());
+          DoubleEdgeNode<T> lastNode = doubleLinkedList.last();
+          if (lastNode != null) {
+            System.out.println("The last Node is: " + lastNode.getData());
+          }
           break;
         case 5:
           System.out.println("Enter data to add at the start: ");
