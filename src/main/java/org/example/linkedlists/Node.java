@@ -1,15 +1,15 @@
 package org.example.linkedlists;
 
 public class Node<T> {
-  T data;
+  T get;
   Node next;
 
   public T getData() {
-    return data;
+    return get;
   }
 
   public void setData(T data) {
-    this.data = data;
+    this.get = data;
   }
 
   public Node getNext() {
@@ -21,7 +21,7 @@ public class Node<T> {
   }
 
   public Node(T data) {
-    this.data = data;
+    this.get = data;
     this.next = null;
   }
 }

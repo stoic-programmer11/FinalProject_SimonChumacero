@@ -1,4 +1,6 @@
 
+w
+java:S1192)"ZDefine a constant instead of duplicating this literal "DoubleLinkedList is empty" 3 times.(ÙôÒ8´‰¿ŸØ1
 T
 java:S1117"7Rename "head" which hides the field declared at line 4.(ƒ—Ì£8ñüŠ´×1
 T
@@ -7,7 +9,9 @@ N
 java:S1905"1Remove this unnecessary cast to "DoubleEdgeNode".(€ÚÔ¢8õüŠ´×1
 N
 java:S1905"1Remove this unnecessary cast to "DoubleEdgeNode".(ç¾¯›8õüŠ´×1
+G	java:S106)"+Replace this use of System.out by a logger.(ÙôÒ8ÆÙ§ŸØ1
 N
-java:S1905+"1Remove this unnecessary cast to "DoubleEdgeNode".(½ì÷¬8÷üŠ´×1
+java:S1905,"1Remove this unnecessary cast to "DoubleEdgeNode".(½ì÷¬8Œîôß×1
+G	java:S1064"+Replace this use of System.out by a logger.(ÙôÒ8õ‰¿ŸØ1
 N
-java:S19054"1Remove this unnecessary cast to "DoubleEdgeNode".(Š »ñ8øüŠ´×1
+java:S19057"1Remove this unnecessary cast to "DoubleEdgeNode".(Š »ñ8ÌÙ§ŸØ1
