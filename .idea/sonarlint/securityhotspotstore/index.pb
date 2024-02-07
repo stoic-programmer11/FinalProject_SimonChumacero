@@ -47,3 +47,9 @@ M
 src/test/java/StackTests.java,a\1\a1071a18da3cf50e5286d0ee75a9b433cd968eeb
 \
 ,src/main/java/org/example/queues/IQueue.java,e\5\e504caef356cfcf460e127d0c1782b524eba5009
+[
++src/main/java/org/example/queues/Queue.java,d\8\d87a3871ee2057e830defc89ffa390721bc5a270
+a
+1src/main/java/org/example/queues/QueueRunner.java,3\5\35891f086d012e9a13c196858748f8ce073e1f63
+M
+src/test/java/QueueTests.java,b\6\b6de9e7abd0f5eb66467ff86fa1c613a94412176
