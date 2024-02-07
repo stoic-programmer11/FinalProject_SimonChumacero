@@ -4,8 +4,8 @@ import org.example.interfaces.IRunner;
 
 import java.util.Scanner;
 
-public class StackRunner implements IRunner {
-  private final Stack<String> stack;
+public class StackRunner<E> implements IRunner {
+  private final Stack<E> stack;
 
   public StackRunner() {
     this.stack = new Stack<>();
@@ -42,7 +42,7 @@ public class StackRunner implements IRunner {
           break;
         case 5:
           System.out.println("Enter data to push onto the Stack: ");
-          String dataToPush = scanner.next();
+          E dataToPush = (E) scanner.next();
           stack.push(dataToPush);
           break;
         case 6:
