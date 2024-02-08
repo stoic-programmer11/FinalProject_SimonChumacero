@@ -105,13 +105,16 @@ public class Dequeue<E> implements IDequeue<E> {
    * Print the elements of the Dequeue from front to end
    */
   public void printDeque() {
-    System.out.print("Deque: ");
+    System.out.print("Deque: [ ");
     DoubleEdgeNode<E> current = deque.first();
     while (current != null) {
-      System.out.print(current.getData() + " ");
+      System.out.print(current.getData());
       current = current.getNext();
+      if (current != null) {
+        System.out.print(", ");
+      }
     }
-    System.out.println();
+    System.out.println(" ]");
   }
 
 

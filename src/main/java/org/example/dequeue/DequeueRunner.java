@@ -27,16 +27,16 @@ public class DequeueRunner<E> implements IRunner {
           System.out.println("The Dequeue is empty? " + dequeue.isEmpty());
           break;
         case 3:
-          try {
+          if (dequeue.first() != null) {
             System.out.println("The first element is: " + dequeue.first());
-          } catch (Exception e) {
+          } else {
             System.out.println("There is no first element");
           }
           break;
         case 4:
-          try {
+          if (dequeue.last() != null) {
             System.out.println("The last element is: " + dequeue.last());
-          } catch (Exception e) {
+          } else {
             System.out.println("There is no last element");
           }
           break;

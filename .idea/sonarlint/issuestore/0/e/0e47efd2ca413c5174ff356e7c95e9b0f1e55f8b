@@ -1,27 +1,29 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(ÏÏÑ‚úÿÿÿÿ8ÃëªØ1
-L	java:S106"+Replace this use of System.out by a logger.(ŸÓŒÚÿÿÿÿÿ8ÅëªØ1
-L	java:S106"+Replace this use of System.out by a logger.(Î©»úÿÿÿÿ8ÆëªØ1
-L	java:S106!"+Replace this use of System.out by a logger.(ô·‚ƒıÿÿÿÿ8ÈëªØ1
-G	java:S106&"+Replace this use of System.out by a logger.(¤Í¾8ÈëªØ1
-L	java:S106("+Replace this use of System.out by a logger.(ĞÃöğùÿÿÿÿ8ÉëªØ1
-L	java:S106,"+Replace this use of System.out by a logger.(ÚØŞÛıÿÿÿÿ8ÊëªØ1
-G	java:S1061"+Replace this use of System.out by a logger.(ÄêŞ8ËëªØ1
-L	java:S1067"+Replace this use of System.out by a logger.(ÿ³ÈØüÿÿÿÿ8ÎëªØ1
-G	java:S1069"+Replace this use of System.out by a logger.(èê“»8ĞëªØ1
-G	java:S106>"+Replace this use of System.out by a logger.(ÏÔ¾ä8ĞëªØ1
-G	java:S106@"+Replace this use of System.out by a logger.(½Ñ§‘8ÒëªØ1
-L	java:S106G"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8ÒëªØ1
-G	java:S106J"+Replace this use of System.out by a logger.(‹À¡‰8ÓëªØ1
-G	java:S106P"+Replace this use of System.out by a logger.(Âºã8ÔëªØ1
-L	java:S106Q"+Replace this use of System.out by a logger.(È¦˜•úÿÿÿÿ8ÕëªØ1
-L	java:S106R"+Replace this use of System.out by a logger.(ÊÓÇøşÿÿÿÿ8ÖëªØ1
-L	java:S106S"+Replace this use of System.out by a logger.(­éóúÿÿÿÿ8×ëªØ1
-F	java:S106T"+Replace this use of System.out by a logger.(Õ¤N8ØëªØ1
-G	java:S106U"+Replace this use of System.out by a logger.(üöœ¬8ØëªØ1
-G	java:S106V"+Replace this use of System.out by a logger.(öüß8ÙëªØ1
-G	java:S106W"+Replace this use of System.out by a logger.(±õñø8ÚëªØ1
-G	java:S106X"+Replace this use of System.out by a logger.(×‡§8ÚëªØ1
-G	java:S106Y"+Replace this use of System.out by a logger.(˜¿š’8ÛëªØ1
-G	java:S106Z"+Replace this use of System.out by a logger.(ÉÓ…»8ğëªØ1
-L	java:S106["+Replace this use of System.out by a logger.(Àè»¼ÿÿÿÿÿ8ÄöœªØ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(“–ış8Ã©ŠÊØ1
+L	java:S106"+Replace this use of System.out by a logger.(ÏÏÑ‚úÿÿÿÿ8Ò©ŠÊØ1
+L	java:S106"+Replace this use of System.out by a logger.(ŸÓŒÚÿÿÿÿÿ8Ó©ŠÊØ1
+L	java:S106"+Replace this use of System.out by a logger.(Î©»úÿÿÿÿ8Ô©ŠÊØ1
+L	java:S106!"+Replace this use of System.out by a logger.(ô·‚ƒıÿÿÿÿ8Ô©ŠÊØ1
+G	java:S106&"+Replace this use of System.out by a logger.(¤Í¾8Ö©ŠÊØ1
+L	java:S106("+Replace this use of System.out by a logger.(ĞÃöğùÿÿÿÿ8×©ŠÊØ1
+L	java:S106,"+Replace this use of System.out by a logger.(ÚØŞÛıÿÿÿÿ8Ø©ŠÊØ1
+G	java:S1061"+Replace this use of System.out by a logger.(ÄêŞ8Ù©ŠÊØ1
+L	java:S1067"+Replace this use of System.out by a logger.(ÿ³ÈØüÿÿÿÿ8Ú©ŠÊØ1
+G	java:S1069"+Replace this use of System.out by a logger.(èê“»8Û©ŠÊØ1
+G	java:S106>"+Replace this use of System.out by a logger.(ÏÔ¾ä8Û©ŠÊØ1
+G	java:S106@"+Replace this use of System.out by a logger.(½Ñ§‘8Ü©ŠÊØ1
+L	java:S106G"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8İ©ŠÊØ1
+G	java:S106J"+Replace this use of System.out by a logger.(‹À¡‰8İ©ŠÊØ1
+G	java:S106P"+Replace this use of System.out by a logger.(Âºã8Ş©ŠÊØ1
+L	java:S106Q"+Replace this use of System.out by a logger.(È¦˜•úÿÿÿÿ8Ş©ŠÊØ1
+L	java:S106R"+Replace this use of System.out by a logger.(ÊÓÇøşÿÿÿÿ8Ş©ŠÊØ1
+L	java:S106S"+Replace this use of System.out by a logger.(­éóúÿÿÿÿ8ß©ŠÊØ1
+F	java:S106T"+Replace this use of System.out by a logger.(Õ¤N8ß©ŠÊØ1
+G	java:S106U"+Replace this use of System.out by a logger.(üöœ¬8à©ŠÊØ1
+G	java:S106V"+Replace this use of System.out by a logger.(öüß8à©ŠÊØ1
+G	java:S106W"+Replace this use of System.out by a logger.(±õñø8à©ŠÊØ1
+G	java:S106X"+Replace this use of System.out by a logger.(×‡§8á©ŠÊØ1
+G	java:S106Y"+Replace this use of System.out by a logger.(˜¿š’8á©ŠÊØ1
+G	java:S106Z"+Replace this use of System.out by a logger.(ÉÓ…»8‡ìÊØ1
+L	java:S106["+Replace this use of System.out by a logger.(Àè»¼ÿÿÿÿÿ8ˆìÊØ1
