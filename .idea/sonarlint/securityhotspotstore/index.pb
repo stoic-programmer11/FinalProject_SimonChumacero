@@ -59,3 +59,9 @@ d
 4src/main/java/org/example/dequeue/DequeueRunner.java,0\e\0e47efd2ca413c5174ff356e7c95e9b0f1e55f8b
 O
 src/test/java/DequeueTests.java,c\4\c44c84787651bedeca98b89e2d997c4a56265b1a
+[
++src/main/java/org/example/trees/BTNode.java,d\3\d31d2f1258106f361e39f2511b27bc4125125142
+`
+0src/main/java/org/example/trees/IBinaryTree.java,c\d\cd0343434b979d7c9947484472e84167110a5f29
+_
+/src/main/java/org/example/trees/BinaryTree.java,6\9\69b9295ff4c949b554e906c2410cb04c5a2ee64d
