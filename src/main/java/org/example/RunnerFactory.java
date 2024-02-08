@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.NullRunner;
+import org.example.dequeue.DequeueRunner;
 import org.example.interfaces.IRunner;
 import org.example.linkedlists.DoubleLinkedListRunner;
 import org.example.linkedlists.LinkedListRunner;
@@ -19,6 +20,8 @@ public class RunnerFactory {
         return new StackRunner();
       case 4:
         return new QueueRunner();
+      case 5:
+        return new DequeueRunner<>();
 //      case "5":
 //        return new TreeRunner();
 //      case "6":

@@ -39,8 +39,6 @@ a
 ,src/main/java/org/example/stacks/IStack.java,b\d\bdef1d63f42d235ed6df770b6b2b2da8cf2b4ed8
 S
 #src/test/java/LinkedListsTests.java,3\5\35795e1f450a42d8f7fbcee51b7976b718bd96df
-V
-&src/test/java/DoubleLinkeListTest.java,5\1\51c90e85f8494f7a95f557b78b071ab80df3c3b6
 X
 (src/test/java/DoubleLinkedListTests.java,c\b\cb1afbc0757e318e2ccc953382b4fc5516e19281
 M
@@ -53,3 +51,11 @@ a
 1src/main/java/org/example/queues/QueueRunner.java,3\5\35891f086d012e9a13c196858748f8ce073e1f63
 M
 src/test/java/QueueTests.java,b\6\b6de9e7abd0f5eb66467ff86fa1c613a94412176
+_
+/src/main/java/org/example/dequeue/IDequeue.java,6\0\6053582da27e7ccfac802aec5ecab4804a2e3d03
+^
+.src/main/java/org/example/dequeue/Dequeue.java,7\0\706a36a956f01926102d2f97a3a0f538d7faed0a
+d
+4src/main/java/org/example/dequeue/DequeueRunner.java,0\e\0e47efd2ca413c5174ff356e7c95e9b0f1e55f8b
+O
+src/test/java/DequeueTests.java,c\4\c44c84787651bedeca98b89e2d997c4a56265b1a

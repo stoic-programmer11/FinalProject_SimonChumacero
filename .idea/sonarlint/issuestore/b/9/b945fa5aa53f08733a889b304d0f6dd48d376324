@@ -1,5 +1,10 @@
 
-U
-java:S1118
-":Add a private constructor to hide the implicit public one.(©´¾úÿÿÿÿ
-X	java:S125"<This block of commented-out lines of code should be removed.(Ëöçğ8„‹¡Ø1
+Q
+java:S3740"/Provide the parametrized type for this generic.(Æ‚³½ùÿÿÿÿ8¨øƒÊØ1
+Q
+java:S3740"/Provide the parametrized type for this generic.(ÿØ„÷úÿÿÿÿ8‘Í‰ªØ1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(©´¾úÿÿÿÿ8–Í‰ªØ1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ëöçğ8šÍ‰ªØ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¶˜³èøÿÿÿÿ8ßøƒÊØ1

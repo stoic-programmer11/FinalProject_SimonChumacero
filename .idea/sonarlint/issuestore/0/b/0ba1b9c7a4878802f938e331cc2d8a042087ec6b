@@ -4,4 +4,5 @@ L	java:S106"+Replace this use of System.out by a logger.(æòµúÿÿÿÿ8ÈœıµÔ1
 L	java:S106"+Replace this use of System.out by a logger.(ìõıüÿÿÿÿ8îıå±×1
 G	java:S106"+Replace this use of System.out by a logger.(Ù—‹İ8—ş³Ì×1
 G	java:S106"+Replace this use of System.out by a logger.(›¥ÓË8¢ãÇ Ø1
-X	java:S125"<This block of commented-out lines of code should be removed.(ßíè…8£ãÇ Ø1
+L	java:S106"+Replace this use of System.out by a logger.(ë†Ëşÿÿÿÿ8°…³©Ø1
+X	java:S125"<This block of commented-out lines of code should be removed.(ßíè…8£ãÇ Ø1
