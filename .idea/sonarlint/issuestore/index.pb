@@ -59,3 +59,9 @@ d
 4src/main/java/org/example/dequeue/DequeueRunner.java,0\e\0e47efd2ca413c5174ff356e7c95e9b0f1e55f8b
 O
 src/test/java/DequeueTests.java,c\4\c44c84787651bedeca98b89e2d997c4a56265b1a
+i
+9src/main/java/org/example/ordenamiento/SelectionSort.java,1\1\11c4092e481c895803276565922d18326da78542
+e
+5src/main/java/org/example/ordenamiento/BubleSort.java,1\b\1b18a8c41f4e54e9133b43b658daabd450495a7b
+f
+6src/main/java/org/example/ordenamiento/BubbleSort.java,5\b\5b4e4f4aa680ac9ff6950058343921fb3fc1c242
