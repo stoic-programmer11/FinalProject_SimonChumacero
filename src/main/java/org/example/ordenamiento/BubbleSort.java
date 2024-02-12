@@ -9,7 +9,6 @@ public class BubbleSort {
 
     // Iterar todo el array
     for (int i = 0; i < n - 1; i++) {
-      // Últimos i elementos ya están en su lugar correcto
       for (int j = 0; j < n - i - 1; j++) {
         // Comparar elementos
         if (arr[j] > arr[j + 1]) {
@@ -23,7 +22,7 @@ public class BubbleSort {
   }
 
 
-  // Método para imprimir un array
+
   public static void printArray(int[] arr) {
     System.out.print("[ ");
     for (int i = 0; i < arr.length; i++) {
@@ -35,7 +34,7 @@ public class BubbleSort {
     System.out.println(" ]");
   }
 
-  // Probar BubbleSort
+
   public static void main(String[] args) {
     int[] arr = {5, 25, 10, 7, 11};
     System.out.println("Array original:");
