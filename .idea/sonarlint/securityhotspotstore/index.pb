@@ -65,3 +65,5 @@ O
 0src/main/java/org/example/trees/IBinaryTree.java,c\d\cd0343434b979d7c9947484472e84167110a5f29
 _
 /src/main/java/org/example/trees/BinaryTree.java,6\9\69b9295ff4c949b554e906c2410cb04c5a2ee64d
+R
+"src/test/java/BinaryTreeTests.java,8\1\812eeb7ddac5523e48ebc8c90608b3aa595689c2
