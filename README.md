@@ -13,6 +13,9 @@
 ### 5. Dequeue (Double-ended queue)
 ### 6. BinaryTree
 ### 7. Graph
+### 8. BubbleSort
+### 9. SelectionSort
+### 10. Towers Of Hanoi
 
 ## 1. Installation
 ### Clone the repository or download it using the following command:
