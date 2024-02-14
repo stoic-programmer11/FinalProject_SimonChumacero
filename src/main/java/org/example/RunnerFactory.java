@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.NullRunner;
 import org.example.dequeue.DequeueRunner;
+import org.example.graphs.MyGraphRunner;
 import org.example.interfaces.IRunner;
 import org.example.linkedlists.DoubleLinkedListRunner;
 import org.example.linkedlists.LinkedListRunner;
@@ -25,8 +26,8 @@ public class RunnerFactory {
         return new DequeueRunner<>();
       case 6:
         return new BinaryTreeRunner();
-//      case "6":
-//        return new GraphRunner();
+      case 7:
+        return new MyGraphRunner();
       default:
         return new NullRunner();
     }
