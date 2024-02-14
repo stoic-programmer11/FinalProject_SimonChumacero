@@ -59,6 +59,7 @@ d
 4src/main/java/org/example/dequeue/DequeueRunner.java,0\e\0e47efd2ca413c5174ff356e7c95e9b0f1e55f8b
 O
 src/test/java/DequeueTests.java,c\4\c44c84787651bedeca98b89e2d997c4a56265b1a
+
 [
 +src/main/java/org/example/trees/BTNode.java,d\3\d31d2f1258106f361e39f2511b27bc4125125142
 `
@@ -71,3 +72,9 @@ e
 5src/main/java/org/example/trees/BinaryTreeRunner.java,4\d\4d86b23a64f53e28ae618d2505cf4d3b7b7ee1c3
 [
 +src/main/java/org/example/trees/prueba.java,2\0\204c995d3fc5168d64761540e3acfc8148003a58
+=======
+i
+9src/main/java/org/example/ordenamiento/SelectionSort.java,1\1\11c4092e481c895803276565922d18326da78542
+f
+6src/main/java/org/example/ordenamiento/BubbleSort.java,5\b\5b4e4f4aa680ac9ff6950058343921fb3fc1c242
+
