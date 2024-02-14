@@ -7,6 +7,7 @@ import org.example.linkedlists.DoubleLinkedListRunner;
 import org.example.linkedlists.LinkedListRunner;
 import org.example.queues.QueueRunner;
 import org.example.stacks.StackRunner;
+import org.example.trees.BinaryTreeRunner;
 
 public class RunnerFactory {
 
@@ -22,8 +23,8 @@ public class RunnerFactory {
         return new QueueRunner();
       case 5:
         return new DequeueRunner<>();
-//      case "5":
-//        return new TreeRunner();
+      case 6:
+        return new BinaryTreeRunner();
 //      case "6":
 //        return new GraphRunner();
       default:
