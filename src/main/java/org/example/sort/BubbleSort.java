@@ -1,18 +1,15 @@
-package org.example.ordenamiento;
-
+package org.example.sort;
 
 public class BubbleSort {
-
-
   public static void sort(int[] arr) {
     int n = arr.length;
 
-    // Iterar todo el array
+    // Iterate through the entire array
     for (int i = 0; i < n - 1; i++) {
       for (int j = 0; j < n - i - 1; j++) {
-        // Comparar elementos
+        // Compare elements
         if (arr[j] > arr[j + 1]) {
-          // Intercambiar si el elemento en la posición j es mayor que el siguiente
+          // Swap if the element at position j is greater than the next one
           int temp = arr[j];
           arr[j] = arr[j + 1];
           arr[j + 1] = temp;
@@ -20,8 +17,6 @@ public class BubbleSort {
       }
     }
   }
-
-
 
   public static void printArray(int[] arr) {
     System.out.print("[ ");
@@ -32,17 +27,5 @@ public class BubbleSort {
       }
     }
     System.out.println(" ]");
-  }
-
-
-  public static void main(String[] args) {
-    int[] arr = {5, 25, 10, 7, 11};
-    System.out.println("Array original:");
-    printArray(arr);
-
-    sort(arr);
-
-    System.out.println("Array ordenado:");
-    printArray(arr);
   }
 }

@@ -29,6 +29,7 @@ public interface IBinaryTree {
 
   /**
    * Return the node with the given data
+   *
    * @param data
    * @return
    */

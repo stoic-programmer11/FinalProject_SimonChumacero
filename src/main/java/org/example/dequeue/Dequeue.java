@@ -13,6 +13,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Add e element to the front of the Dequeue
+   *
    * @param e
    */
   @Override
@@ -22,6 +23,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Add e element to the end of the Dequeue
+   *
    * @param e
    */
   @Override
@@ -31,6 +33,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Remove and return the first element from the Dequeue (or null if the Dequeue is empty)
+   *
    * @return E
    */
   @Override
@@ -45,6 +48,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Remove and return the last element from the Dequeue (or null if the Dequeue is empty)
+   *
    * @return E
    */
   @Override
@@ -59,6 +63,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Return the first element of the Dequeue, without removing it (or null if the Dequeue is empty)
+   *
    * @return E
    */
   @Override
@@ -72,6 +77,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Return the last element of the Dequeue, without removing it (or null if the Dequeue is empty)
+   *
    * @return E
    */
   @Override
@@ -85,6 +91,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Return true if the Dequeue is empty, and false otherwise
+   *
    * @return boolean
    */
   @Override
@@ -94,6 +101,7 @@ public class Dequeue<E> implements IDequeue<E> {
 
   /**
    * Return the number of elements in the Dequeue
+   *
    * @return int
    */
   @Override

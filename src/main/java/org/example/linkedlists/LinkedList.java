@@ -1,17 +1,17 @@
 package org.example.linkedlists;
 
-public class LinkedList<T> implements ILinkedList<T>{
+public class LinkedList<T> implements ILinkedList<T> {
 
   Node<T> head;
 
   @Override
   public int size() {
-    if(isEmpty()){
+    if (isEmpty()) {
       return 0;
     } else {
       int size = 1;
       Node<T> current = head;
-      while(current.next != null){
+      while (current.next != null) {
         size++;
         current = current.next;
       }

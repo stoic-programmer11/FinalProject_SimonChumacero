@@ -8,18 +8,18 @@ import java.util.EmptyStackException;
 public class Queue<E> implements IQueue<E> {
   private LinkedList<E> queue;
 
-  // Inicializa una cola utilizando una lista enlazada
+  // Initializes a queue using a linked list
   public Queue() {
     this.queue = new LinkedList<>();
   }
 
-  // Agrega el elemento al final de la cola
+  // Adds the element to the end of the queue
   @Override
   public void enqueue(E e) {
     queue.addLast(e);
   }
 
-  // Elimina y devuelve el primer elemento de la cola
+  // Removes and returns the first element of the queue
   @Override
   public E dequeue() {
     if (isEmpty()) {
@@ -30,7 +30,7 @@ public class Queue<E> implements IQueue<E> {
     return deleted;
   }
 
-  // Devuelve el primer elemento de la cola sin eliminarlo
+  // Returns the first element of the queue without removing it
   @Override
   public E first() {
     if (isEmpty()) {
@@ -39,19 +39,19 @@ public class Queue<E> implements IQueue<E> {
     return queue.first().getData();
   }
 
-  // Verifica si la cola está vacía
+  // Checks if the queue is empty
   @Override
   public boolean isEmpty() {
     return queue.isEmpty();
   }
 
-  // Devuelve el tamaño de la cola (cantidad de elementos)
+  // Returns the size of the queue (number of elements)
   @Override
   public int size() {
     return queue.size();
   }
 
-  // Imprime la cola
+  // Prints the queue
   public void printQueue() {
     System.out.print("[ ");
     Node<E> current = queue.first();

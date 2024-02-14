@@ -1,6 +1,5 @@
 package org.example.linkedlists;
 
-import org.example.Person;
 import org.example.interfaces.IRunner;
 
 import java.util.LinkedList;
