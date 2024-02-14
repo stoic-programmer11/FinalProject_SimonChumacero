@@ -36,22 +36,28 @@ public class BinaryTree implements IBinaryTree {
 
   @Override
   public void delete(int data) {
-
+    root = delete(root, data);
   }
 
   @Override
   public int[] inOrder() {
-    return new int[0];
+    int[] result = new int[size()];
+    inOrder(root, result, 0);
+    return result;
   }
 
   @Override
   public int[] preOrder() {
-    return new int[0];
+    int[] result = new int[size()];
+    preOrder(root, result, 0);
+    return result;
   }
 
   @Override
   public int[] postOrder() {
-    return new int[0];
+    int[] result = new int[size()];
+    postOrder(root, result, 0);
+    return result;
   }
 
   @Override
@@ -170,4 +176,103 @@ public class BinaryTree implements IBinaryTree {
     }
     return 1 + Math.max(height(root.left), height(root.right));
   }
+
+  /**
+   * Return the pre-order traversal of the tree
+   *
+   * @return
+   */
+  private static int preOrder(BTNode root, int[] result, int index) {
+    if (root == null) {
+      return index;
+    }
+    result[index++] = root.data;
+    index = preOrder(root.left, result, index);
+    index = preOrder(root.right, result, index);
+    return index;
+
+  }
+
+
+  /**
+   * Return the in-order of the tree
+   *
+   * @return
+   */
+  private static int inOrder(BTNode root, int[] result, int index) {
+    if (root == null) {
+      return index;
+    }
+    index = inOrder(root.left, result, index);
+    result[index++] = root.data;
+    index = inOrder(root.right, result, index);
+    return index;
+  }
+
+
+  /**
+   * Return the post-order of the tree
+   *
+   * @return
+   */
+  private static int postOrder(BTNode root, int[] result, int index) {
+    if (root == null) {
+      return index;
+    }
+    index = postOrder(root.left, result, index);
+    index = postOrder(root.right, result, index);
+    result[index++] = root.data;
+    return index;
+  }
+
+  /**
+   * Delete a node with the given data from the tree
+   *
+   * @param data
+   */
+  private BTNode delete(BTNode root, int data) {
+    if (root == null) {
+      return root;
+    }
+
+    // Search for the node to delete
+    if (data < root.data) {
+      root.left = delete(root.left, data);
+    } else if (data > root.data) {
+      root.right = delete(root.right, data);
+    } else {
+      // Node found, perform deletion
+      // Case 1: The node to delete is a leaf node (has no children)
+      if (root.left == null && root.right == null) {
+        return null;
+      }
+      // Case 2: The node to delete has only one child
+      else if (root.left == null) {
+        return root.right;
+      } else if (root.right == null) {
+        return root.left;
+      }
+      // Case 3: The node to delete has two children
+      else {
+        // Find the inorder successor (the smallest node in the right subtree)
+        root.data = minValue(root.right);
+        // Delete the inorder successor from the right subtree
+        root.right = delete(root.right, root.data);
+      }
+    }
+    return root;
+  }
+
+  /**
+   * Return the minimum value in the tree
+   */
+  private int minValue(BTNode node) {
+    int minValue = node.data;
+    while (node.left != null) {
+      minValue = node.left.data;
+      node = node.left;
+    }
+    return minValue;
+  }
+
 }

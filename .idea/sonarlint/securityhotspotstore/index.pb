@@ -67,3 +67,7 @@ _
 /src/main/java/org/example/trees/BinaryTree.java,6\9\69b9295ff4c949b554e906c2410cb04c5a2ee64d
 R
 "src/test/java/BinaryTreeTests.java,8\1\812eeb7ddac5523e48ebc8c90608b3aa595689c2
+e
+5src/main/java/org/example/trees/BinaryTreeRunner.java,4\d\4d86b23a64f53e28ae618d2505cf4d3b7b7ee1c3
+[
++src/main/java/org/example/trees/prueba.java,2\0\204c995d3fc5168d64761540e3acfc8148003a58

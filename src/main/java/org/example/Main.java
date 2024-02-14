@@ -26,7 +26,7 @@ public class Main {
     System.out.println("3. Stack");
     System.out.println("4. Queue");
     System.out.println("5. Dequeue (Double-ended queue)");
-//    System.out.println("5. Tree");
+    System.out.println("6. Binary Tree");
 //    System.out.println("6. Graph");
 //    System.out.println("0. Exit");
   }
