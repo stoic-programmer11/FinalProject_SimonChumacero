@@ -18,6 +18,7 @@ public class GNode {
     return name;
   }
 
+
   @Override
   public boolean equals(Object obj) {
     if (this == obj) {

@@ -1,6 +1,6 @@
 package org.example.linkedlists;
 
-public class DoubleEdgeNode<T>{
+public class DoubleEdgeNode<T> {
   DoubleEdgeNode<T> prev;
   DoubleEdgeNode<T> next;
   T data;

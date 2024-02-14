@@ -13,6 +13,7 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
     int option = scanner.nextInt();
 
+    // Create a runner based on the user's choice
     IRunner runner = RunnerFactory.getRunner(option);
     runner.run();
 
@@ -28,6 +29,8 @@ public class Main {
     System.out.println("5. Dequeue (Double-ended queue)");
     System.out.println("6. Binary Tree");
     System.out.println("7. Graph");
-//    System.out.println("0. Exit");
+    System.out.println("8. BubbleSort");
+    System.out.println("9. SelectionSort");
+    System.out.println("10. Tower of Hanoi");
   }
 }

@@ -8,20 +8,20 @@ import java.util.EmptyStackException;
 public class Stack<E> implements IStack<E> {
   private LinkedList<E> stack;
 
-  // Inicializa una pila utilizando una lista enlazada
+  // Initializes a stack using a linked list
   public Stack() {
     this.stack = new LinkedList<>();
   }
 
-  // Agrega el elemento en la parte superior del stack
+  // Adds the element to the top of the stack
   @Override
   public void push(E e) {
     stack.addFirst(e);
   }
 
-  // Captura el elemento en la parte superior de la pila
-  // Elimina el elemento en la parte superior de la pila
-  // Devuelve el elemento eliminado
+  // Retrieves the element at the top of the stack
+  // Removes the element at the top of the stack
+  // Returns the removed element
   @Override
   public E pop() {
     if (isEmpty()) {
@@ -32,7 +32,7 @@ public class Stack<E> implements IStack<E> {
     return deleted;
   }
 
-  // Devuelve el elemento en la parte superior de la pila (al principio de la lista enlazada) sin eliminarlo
+  // Returns the element at the top of the stack (beginning of the linked list) without removing it
   @Override
   public E top() {
     if (isEmpty()) {
@@ -41,13 +41,13 @@ public class Stack<E> implements IStack<E> {
     return stack.first().getData();
   }
 
-  // Verifica si la pila está vacía
+  // Checks if the stack is empty
   @Override
   public boolean isEmpty() {
     return stack.isEmpty();
   }
 
-  // Devuelve el tamaño de la pila (cantidad de elementos)
+  // Returns the size of the stack (number of elements)
   @Override
   public int size() {
     return stack.size();

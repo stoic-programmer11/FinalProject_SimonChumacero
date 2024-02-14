@@ -13,7 +13,6 @@ public class BinaryTree implements IBinaryTree {
   }
 
 
-  // ok
   @Override
   public void insert(int data) {
     root = insert(root, data);
@@ -66,7 +65,6 @@ public class BinaryTree implements IBinaryTree {
   }
 
 
-  // ok
   @Override
   public int size() {
     return size(root);
@@ -178,7 +176,7 @@ public class BinaryTree implements IBinaryTree {
   }
 
   /**
-   * Return the pre-order traversal of the tree
+   * Return the pre-order of the tree
    *
    * @return
    */

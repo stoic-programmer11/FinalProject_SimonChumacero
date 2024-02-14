@@ -33,6 +33,13 @@ public interface IMyGraph {
   List<GEdge> getEdges();
 
 
+  /**
+   * Get the node with the given name
+   *
+   * @param source node
+   * @param destination node
+   * @return the node with the given name
+   */
   GEdge getEdge(GNode source, GNode destination);
 
   int outDegree(GNode node);
