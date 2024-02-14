@@ -12,6 +12,7 @@
 ### 4. Queue
 ### 5. Dequeue (Double-ended queue)
 ### 6. BinaryTree
+### 7. Graph
 
 ## 1. Installation
 ### Clone the repository or download it using the following command:
